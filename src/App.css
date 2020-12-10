@@ -65,19 +65,17 @@ html {
 }
 
 .menu-list li {
-  list-style: none;
-}
-
-.menu-list li a {
   color: #fff;
   font-size: 20px;
+  list-style: none;
   font-weight: 500;
   margin-left: 20px;
   text-decoration: none;
   transition: all 0.5s ease;
+  cursor: pointer;
 }
 
-.menu-list li a:hover {
+.menu-list li:hover {
   color: #2ecc40;
 }
 

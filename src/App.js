@@ -123,6 +123,22 @@ const App = () => {
       });
   }
 
+  const goToAbout = () => {
+    document.getElementById('about').scrollIntoView(true);
+  }
+
+  const goToSkills = () => {
+    document.getElementById('skills').scrollIntoView(true);
+  }
+  
+  const goToProjects = () => {
+    document.getElementById('projects').scrollIntoView(true);
+  }
+
+  const goToHireMe = () => {
+    document.getElementById('sayHello').scrollIntoView(true);
+  }
+
   return (
     <div className="app">
       <nav>
@@ -138,10 +154,10 @@ const App = () => {
               <div className="icon cancel-btn" ref={cancelBtn} onClick={handleCancelBtn}>
                 <FontAwesomeIcon icon={faTimes} />
               </div>
-              <li><a href="#about" target="_self">About</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#sayHello">Hire Me</a></li>
+              <li onClick={goToAbout}>About</li>
+              <li onClick={goToSkills}>Skills</li>
+              <li onClick={goToProjects}>Projects</li>
+              <li onClick={goToHireMe}>Hire Me</li>
             </ul>
             <div className="icon menu-btn" ref={menuBtn} onClick={handleMenuBtn}>
               <FontAwesomeIcon icon={faBars} />

@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/rohankumar-portfolio/static/css/main.dac489b6.chunk.css",
+    "main.js": "/rohankumar-portfolio/static/js/main.af639b4d.chunk.js",
+    "main.js.map": "/rohankumar-portfolio/static/js/main.af639b4d.chunk.js.map",
+    "runtime-main.js": "/rohankumar-portfolio/static/js/runtime-main.31ed0b1a.js",
+    "runtime-main.js.map": "/rohankumar-portfolio/static/js/runtime-main.31ed0b1a.js.map",
+    "static/js/2.9070bd54.chunk.js": "/rohankumar-portfolio/static/js/2.9070bd54.chunk.js",
+    "static/js/2.9070bd54.chunk.js.map": "/rohankumar-portfolio/static/js/2.9070bd54.chunk.js.map",
+    "index.html": "/rohankumar-portfolio/index.html",
+    "static/css/main.dac489b6.chunk.css.map": "/rohankumar-portfolio/static/css/main.dac489b6.chunk.css.map",
+    "static/js/2.9070bd54.chunk.js.LICENSE.txt": "/rohankumar-portfolio/static/js/2.9070bd54.chunk.js.LICENSE.txt",
+    "static/media/ExploreMERN.eb9c9cd0.JPG": "/rohankumar-portfolio/static/media/ExploreMERN.eb9c9cd0.JPG",
+    "static/media/FrontView.b089be59.JPG": "/rohankumar-portfolio/static/media/FrontView.b089be59.JPG",
+    "static/media/Profile_Picture.30a631d6.svg": "/rohankumar-portfolio/static/media/Profile_Picture.30a631d6.svg",
+    "static/media/TourWebsite.73131296.jpg": "/rohankumar-portfolio/static/media/TourWebsite.73131296.jpg",
+    "static/media/backend-icon.881de9a4.svg": "/rohankumar-portfolio/static/media/backend-icon.881de9a4.svg",
+    "static/media/covidTracker.e33f63cd.JPG": "/rohankumar-portfolio/static/media/covidTracker.e33f63cd.JPG",
+    "static/media/frontend-icon.463d84d7.svg": "/rohankumar-portfolio/static/media/frontend-icon.463d84d7.svg",
+    "static/media/other-skills-icon.aaeb8cb5.svg": "/rohankumar-portfolio/static/media/other-skills-icon.aaeb8cb5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.31ed0b1a.js",
+    "static/js/2.9070bd54.chunk.js",
+    "static/css/main.dac489b6.chunk.css",
+    "static/js/main.af639b4d.chunk.js"
+  ]
+}

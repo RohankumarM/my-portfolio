@@ -106,6 +106,11 @@ const App = () => {
     document.body.classList.remove('disabledScroll');
   };
 
+  const closeMenu = () => {
+    menu.current.classList.remove('active');
+    menuBtn.current.classList.remove('hide');
+  }
+
   useEffect(() => {
     if (emailSent) {
       emailConfirmationRef.current.classList.add('show');
@@ -150,7 +155,7 @@ const App = () => {
               </a>
             </div>
 
-            <ul className="menu-list" ref={menu}>
+            <ul className="menu-list" ref={menu} onClick={closeMenu} >
               <div className="icon cancel-btn" ref={cancelBtn} onClick={handleCancelBtn}>
                 <FontAwesomeIcon icon={faTimes} />
               </div>

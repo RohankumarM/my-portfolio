@@ -135,7 +135,7 @@ const App = () => {
   const goToSkills = () => {
     document.getElementById('skills').scrollIntoView(true);
   }
-  
+
   const goToProjects = () => {
     document.getElementById('projects').scrollIntoView(true);
   }
@@ -201,6 +201,9 @@ const App = () => {
 
       {/* Skills */}
       <div id="skills">
+        <div className="skills-main-title">
+          <h1>Skills</h1>
+        </div>
         <div className="skills-desc">
           <div className="skills__column">
             <Card className="frontend__details" variant="outlined">
@@ -279,6 +282,9 @@ const App = () => {
 
       {/* Projects */}
       <div id="projects">
+        <div className="projects-title">
+          <h1>Projects</h1>
+        </div>
         <div className="projects-container">
           {projectDetails.map((project, index) => {
             return (

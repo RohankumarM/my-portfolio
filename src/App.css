@@ -135,9 +135,11 @@ html, body {
 }
 .about-desc {
   margin-top: 250px;
-
-  margin-left: 50px;
   flex: 5;
+}
+
+.about-desc h1{
+  text-align: center;
 }
 
 .about-desc .typing-animate {
@@ -176,6 +178,9 @@ html, body {
   }
   #about {
     flex-direction: column;
+  }
+  .about-desc {
+    margin-top: 150px;
   }
 }
 

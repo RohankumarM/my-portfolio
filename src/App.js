@@ -295,7 +295,7 @@ const App = () => {
                 </CardActionArea>
                 <CardActions className="card-actions">
                   {project.projectDemo.length === 0 ? <div>Not Hosted</div> :
-                    <a href={project.projectDemo}><Button size="small" color="primary">
+                    <a href={project.projectDemo} target="_blank" rel="noopener noreferrer"><Button size="small" color="primary">
                       View
                   <FontAwesomeIcon icon={faEye} className="view-icon" />
                     </Button></a>

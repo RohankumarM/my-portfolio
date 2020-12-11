@@ -12,6 +12,7 @@ html {
   flex-direction: column;
   background-color: #282828;
   height: auto;
+  width: fit-content;
 }
 
 .content {

@@ -75,10 +75,10 @@ const App = () => {
     },
     {
       projectName: 'P2P Video Call using WebRTC',
-      projectDetails: 'ejs, express, socketio, peerjs, uuid',
+      projectDetails: 'React, HTML, CSS, Express, Socket.io, Material-IO',
       projectImg: WebRTC,
-      projectDemo: 'https://rohan-video-calling-app.herokuapp.com/',
-      projectGithub: 'https://github.com/RohankumarM/WebRTC'
+      projectDemo: 'https://rova-meet.herokuapp.com/',
+      projectGithub: 'https://github.com/RohankumarM/webRTC-media-data/'
     },
     {
       projectName: 'Tour Website',
@@ -312,7 +312,7 @@ const App = () => {
                     </Button></a>
                   }
 
-                  <a href={project.projectGithub}><Button size="small" color="primary">
+                  <a href={project.projectGithub} target="_blank" rel="noopener noreferrer"><Button size="small" color="primary">
                     Github
                   <GitHubIcon className="github-icon" />
                   </Button></a>

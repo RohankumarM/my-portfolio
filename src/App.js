@@ -11,6 +11,7 @@ import TourWebsite from './images/TourWebsite.jpg';
 import CovidTracker from './images/covidTracker.JPG';
 import WebRTC from './images/FrontView.JPG';
 import ExploreMERN from './images/ExploreMERN.JPG';
+import YoutubeClone from './images/youtube.JPG';
 import ProfilePic from './images/Profile_Picture.svg';
 import FrontEnd from './images/frontend-icon.svg';
 import BackEnd from './images/backend-icon.svg';
@@ -55,7 +56,7 @@ const App = () => {
   });
 
   const frontEndSkills = ['React/Redux', 'Javascript', 'HTML/CSS/Material-UI', 'Gulp/Webpack'];
-  const backEndSkills = ['Express', 'Python', 'Node.js', 'MySQL', 'MongoDB'];
+  const backEndSkills = ['Express', 'Python', 'Node.js', 'PHP', 'MySQL', 'MongoDB/NeDB'];
   const otherSkills = ['React Native', 'Firebase', 'Android', 'Java', 'Git']
 
   const projectDetails = [
@@ -87,6 +88,12 @@ const App = () => {
       projectImg: TourWebsite,
       projectDemo: '',
       projectGithub: 'https://github.com/RohankumarM/Tour-website-using-React-RestAPI-MongoDB'
+    },{
+      projectName: 'Youtube Clone',
+      projectDetails: `React, Axios, Youtube API's,  Material-UI`,
+      projectImg: YoutubeClone,
+      projectDemo: 'https://exploreplacesandsave.web.app/5f8e93487dff4a3428632341/places',
+      projectGithub: 'https://github.com/RohankumarM/MERN'
     }
   ];
 

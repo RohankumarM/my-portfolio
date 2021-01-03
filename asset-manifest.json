@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.3d14d363.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.421624eb.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.421624eb.chunk.js.map",
+    "main.js": "/my-portfolio/static/js/main.46915f25.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.46915f25.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.96ef252f.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.96ef252f.js.map",
     "static/js/2.9070bd54.chunk.js": "/my-portfolio/static/js/2.9070bd54.chunk.js",
@@ -10,6 +10,7 @@
     "index.html": "/my-portfolio/index.html",
     "static/css/main.3d14d363.chunk.css.map": "/my-portfolio/static/css/main.3d14d363.chunk.css.map",
     "static/js/2.9070bd54.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.9070bd54.chunk.js.LICENSE.txt",
+    "static/media/APS.8337ec28.JPG": "/my-portfolio/static/media/APS.8337ec28.JPG",
     "static/media/ExploreMERN.eb9c9cd0.JPG": "/my-portfolio/static/media/ExploreMERN.eb9c9cd0.JPG",
     "static/media/FrontView.533279a6.JPG": "/my-portfolio/static/media/FrontView.533279a6.JPG",
     "static/media/Profile_Picture.30a631d6.svg": "/my-portfolio/static/media/Profile_Picture.30a631d6.svg",
@@ -24,6 +25,6 @@
     "static/js/runtime-main.96ef252f.js",
     "static/js/2.9070bd54.chunk.js",
     "static/css/main.3d14d363.chunk.css",
-    "static/js/main.421624eb.chunk.js"
+    "static/js/main.46915f25.chunk.js"
   ]
 }

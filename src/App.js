@@ -11,11 +11,13 @@ import TourWebsite from './images/TourWebsite.jpg';
 import CovidTracker from './images/covidTracker.JPG';
 import WebRTC from './images/FrontView.JPG';
 import ExploreMERN from './images/ExploreMERN.JPG';
+import APS from './images/APS.JPG';
 import YoutubeClone from './images/youtube.JPG';
 import ProfilePic from './images/Profile_Picture.svg';
 import FrontEnd from './images/frontend-icon.svg';
 import BackEnd from './images/backend-icon.svg';
 import OtherSkills from './images/other-skills-icon.svg';
+import Amazon from './images/Amazon.JPG';
 import AlbumRoundedIcon from '@material-ui/icons/AlbumRounded';
 import './App.css';
 
@@ -60,6 +62,20 @@ const App = () => {
   const otherSkills = ['React Native', 'Firebase', 'Android', 'Java', 'Git']
 
   const projectDetails = [
+    {
+      projectName: 'Automated Parking System',
+      projectDetails: 'React, Serverless, Firebase, Cloud Functions, D3.js',
+      projectImg: APS,
+      projectDemo: 'https://automated-parking-system.herokuapp.com/',
+      projectGithub: 'https://github.com/RohankumarM/automated-parking-system'
+    },
+    {
+      projectName: 'Amazon Prototype',
+      projectDetails: 'React, Redux, React Spring, Axios, Serverless, Firebase, Cloud Functions, Material-UI',
+      projectImg: Amazon,
+      projectDemo: 'https://prototype-eb61f.web.app/',
+      projectGithub: 'https://github.com/RohankumarM/amazon-prototype'
+    },
     {
       projectName: 'Travel website blog using MERN',
       projectDetails: 'React, MongoDB, Express, Nodejs, RESTApis',
@@ -136,19 +152,19 @@ const App = () => {
   }
 
   const goToAbout = () => {
-    document.getElementById('about').scrollIntoView(true);
+    document.getElementById('about').scrollIntoView({behavior: 'smooth'});
   }
 
   const goToSkills = () => {
-    document.getElementById('skills').scrollIntoView(true);
+    document.getElementById('skills').scrollIntoView({behavior: 'smooth'});
   }
 
   const goToProjects = () => {
-    document.getElementById('projects').scrollIntoView(true);
+    document.getElementById('projects').scrollIntoView({behavior: 'smooth'});
   }
 
   const goToHireMe = () => {
-    document.getElementById('sayHello').scrollIntoView(true);
+    document.getElementById('sayHello').scrollIntoView({behavior: 'smooth'});
   }
 
   return (
